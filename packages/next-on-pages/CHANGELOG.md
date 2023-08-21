@@ -1,5 +1,16 @@
 # @cloudflare/next-on-pages
 
+## 1.6.0
+
+### Minor Changes
+
+- 291bfde: Support for the internal fetch (suspense) cache, and `next/cache` data revalidation.
+
+### Patch Changes
+
+- 291bfde: Stop the `cache` property in fetch requests causing internal server error.
+- 4570aa6: add vercel@31 as a peer dependency
+
 ## 1.5.1
 
 ### Patch Changes
